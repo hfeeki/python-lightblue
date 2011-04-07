@@ -3,40 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6692821A0E297230008CB8B0 /* BridgeSupport in Resources */ = {isa = PBXBuildFile; fileRef = 669282170E297230008CB8B0 /* BridgeSupport */; };
-		8100016A0D09536000FA9985 /* BBStreamingOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 810001680D09536000FA9985 /* BBStreamingOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100016B0D09536000FA9985 /* BBStreamingOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 810001690D09536000FA9985 /* BBStreamingOutputStream.m */; };
-		8100FE030D056D0100FA9985 /* BBBluetoothOBEXClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100FDEB0D056D0000FA9985 /* BBBluetoothOBEXClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE040D056D0100FA9985 /* BBBluetoothOBEXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100FDEC0D056D0000FA9985 /* BBBluetoothOBEXClient.m */; };
-		8100FE050D056D0100FA9985 /* BBBluetoothOBEXServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100FDED0D056D0000FA9985 /* BBBluetoothOBEXServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE060D056D0100FA9985 /* BBBluetoothOBEXServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100FDEE0D056D0000FA9985 /* BBBluetoothOBEXServer.m */; };
-		8100FE070D056D0100FA9985 /* BBStreamingInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100FDEF0D056D0000FA9985 /* BBStreamingInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE080D056D0100FA9985 /* BBStreamingInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100FDF00D056D0000FA9985 /* BBStreamingInputStream.m */; };
-		8100FE090D056D0100FA9985 /* BBLocalDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100FDF10D056D0000FA9985 /* BBLocalDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE0A0D056D0100FA9985 /* BBLocalDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100FDF20D056D0000FA9985 /* BBLocalDevice.m */; };
-		8100FE0B0D056D0100FA9985 /* BBMutableOBEXHeaderSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100FDF30D056D0000FA9985 /* BBMutableOBEXHeaderSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE0C0D056D0100FA9985 /* BBMutableOBEXHeaderSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100FDF40D056D0000FA9985 /* BBMutableOBEXHeaderSet.m */; };
-		8100FE0D0D056D0100FA9985 /* BBOBEXHeaderSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100FDF50D056D0000FA9985 /* BBOBEXHeaderSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE0E0D056D0100FA9985 /* BBOBEXHeaderSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100FDF60D056D0000FA9985 /* BBOBEXHeaderSet.m */; };
-		8100FE0F0D056D0100FA9985 /* BBOBEXRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100FDF70D056D0100FA9985 /* BBOBEXRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE100D056D0100FA9985 /* BBOBEXRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100FDF80D056D0100FA9985 /* BBOBEXRequest.m */; };
-		8100FE110D056D0100FA9985 /* BBOBEXRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100FDF90D056D0100FA9985 /* BBOBEXRequestHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE120D056D0100FA9985 /* BBOBEXRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100FDFA0D056D0100FA9985 /* BBOBEXRequestHandler.m */; };
-		8100FE150D056D0100FA9985 /* BBServiceAdvertiser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100FDFD0D056D0100FA9985 /* BBServiceAdvertiser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE160D056D0100FA9985 /* BBServiceAdvertiser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100FDFE0D056D0100FA9985 /* BBServiceAdvertiser.m */; };
-		8100FE170D056D0100FA9985 /* LightAquaBlue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8100FDFF0D056D0100FA9985 /* LightAquaBlue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE180D056D0100FA9985 /* OBEXFileTransferDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8100FE000D056D0100FA9985 /* OBEXFileTransferDictionary.plist */; };
-		8100FE190D056D0100FA9985 /* OBEXObjectPushDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8100FE010D056D0100FA9985 /* OBEXObjectPushDictionary.plist */; };
-		8100FE1A0D056D0100FA9985 /* SerialPortDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8100FE020D056D0100FA9985 /* SerialPortDictionary.plist */; };
-		8100FE1C0D056D4300FA9985 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8100FE1B0D056D4300FA9985 /* IOBluetooth.framework */; };
-		817D21A30D3D7FA500469B5D /* BBBluetoothChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 817D21A10D3D7FA500469B5D /* BBBluetoothChannelDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		817D21A40D3D7FA500469B5D /* BBBluetoothChannelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D21A20D3D7FA500469B5D /* BBBluetoothChannelDelegate.m */; };
-		817D239D0D40313600469B5D /* BBOBEXResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 817D239B0D40313600469B5D /* BBOBEXResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		817D239E0D40313600469B5D /* BBOBEXResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D239C0D40313600469B5D /* BBOBEXResponse.m */; };
+		1C8AF73B10B3744F00896A82 /* BBBluetoothChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF72310B3744F00896A82 /* BBBluetoothChannelDelegate.h */; };
+		1C8AF73C10B3744F00896A82 /* BBBluetoothChannelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF72410B3744F00896A82 /* BBBluetoothChannelDelegate.m */; };
+		1C8AF73D10B3744F00896A82 /* BBBluetoothOBEXClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF72510B3744F00896A82 /* BBBluetoothOBEXClient.h */; };
+		1C8AF73E10B3744F00896A82 /* BBBluetoothOBEXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF72610B3744F00896A82 /* BBBluetoothOBEXClient.m */; };
+		1C8AF73F10B3744F00896A82 /* BBBluetoothOBEXServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF72710B3744F00896A82 /* BBBluetoothOBEXServer.h */; };
+		1C8AF74010B3744F00896A82 /* BBBluetoothOBEXServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF72810B3744F00896A82 /* BBBluetoothOBEXServer.m */; };
+		1C8AF74110B3744F00896A82 /* BBLocalDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF72910B3744F00896A82 /* BBLocalDevice.h */; };
+		1C8AF74210B3744F00896A82 /* BBLocalDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF72A10B3744F00896A82 /* BBLocalDevice.m */; };
+		1C8AF74310B3744F00896A82 /* BBMutableOBEXHeaderSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF72B10B3744F00896A82 /* BBMutableOBEXHeaderSet.h */; };
+		1C8AF74410B3744F00896A82 /* BBMutableOBEXHeaderSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF72C10B3744F00896A82 /* BBMutableOBEXHeaderSet.m */; };
+		1C8AF74510B3744F00896A82 /* BBOBEXHeaderSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF72D10B3744F00896A82 /* BBOBEXHeaderSet.h */; };
+		1C8AF74610B3744F00896A82 /* BBOBEXHeaderSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF72E10B3744F00896A82 /* BBOBEXHeaderSet.m */; };
+		1C8AF74710B3744F00896A82 /* BBOBEXRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF72F10B3744F00896A82 /* BBOBEXRequest.h */; };
+		1C8AF74810B3744F00896A82 /* BBOBEXRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF73010B3744F00896A82 /* BBOBEXRequest.m */; };
+		1C8AF74910B3744F00896A82 /* BBOBEXRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF73110B3744F00896A82 /* BBOBEXRequestHandler.h */; };
+		1C8AF74A10B3744F00896A82 /* BBOBEXRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF73210B3744F00896A82 /* BBOBEXRequestHandler.m */; };
+		1C8AF74B10B3744F00896A82 /* BBOBEXResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF73310B3744F00896A82 /* BBOBEXResponse.h */; };
+		1C8AF74C10B3744F00896A82 /* BBOBEXResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF73410B3744F00896A82 /* BBOBEXResponse.m */; };
+		1C8AF74D10B3744F00896A82 /* BBServiceAdvertiser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF73510B3744F00896A82 /* BBServiceAdvertiser.h */; };
+		1C8AF74E10B3744F00896A82 /* BBServiceAdvertiser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF73610B3744F00896A82 /* BBServiceAdvertiser.m */; };
+		1C8AF74F10B3744F00896A82 /* BBStreamingInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF73710B3744F00896A82 /* BBStreamingInputStream.h */; };
+		1C8AF75010B3744F00896A82 /* BBStreamingInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF73810B3744F00896A82 /* BBStreamingInputStream.m */; };
+		1C8AF75110B3744F00896A82 /* BBStreamingOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF73910B3744F00896A82 /* BBStreamingOutputStream.h */; };
+		1C8AF75210B3744F00896A82 /* BBStreamingOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF73A10B3744F00896A82 /* BBStreamingOutputStream.m */; };
+		1C8AF75910B3747200896A82 /* LightAquaBlue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AF75810B3747200896A82 /* LightAquaBlue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8AF75D10B3749400896A82 /* LightAquaBlue.bridgesupport in Resources */ = {isa = PBXBuildFile; fileRef = 1C8AF75C10B3749400896A82 /* LightAquaBlue.bridgesupport */; };
+		1C8AF76110B374AB00896A82 /* OBEXFileTransferDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C8AF75E10B374AB00896A82 /* OBEXFileTransferDictionary.plist */; };
+		1C8AF76210B374AB00896A82 /* OBEXObjectPushDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C8AF75F10B374AB00896A82 /* OBEXObjectPushDictionary.plist */; };
+		1C8AF76310B374AB00896A82 /* SerialPortDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C8AF76010B374AB00896A82 /* SerialPortDictionary.plist */; };
+		1C8AF76510B374E900896A82 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8AF76410B374E900896A82 /* IOBluetooth.framework */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -44,41 +44,42 @@
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1C8AF72310B3744F00896A82 /* BBBluetoothChannelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBluetoothChannelDelegate.h; sourceTree = "<group>"; };
+		1C8AF72410B3744F00896A82 /* BBBluetoothChannelDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBluetoothChannelDelegate.m; sourceTree = "<group>"; };
+		1C8AF72510B3744F00896A82 /* BBBluetoothOBEXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBluetoothOBEXClient.h; sourceTree = "<group>"; };
+		1C8AF72610B3744F00896A82 /* BBBluetoothOBEXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBluetoothOBEXClient.m; sourceTree = "<group>"; };
+		1C8AF72710B3744F00896A82 /* BBBluetoothOBEXServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBluetoothOBEXServer.h; sourceTree = "<group>"; };
+		1C8AF72810B3744F00896A82 /* BBBluetoothOBEXServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBluetoothOBEXServer.m; sourceTree = "<group>"; };
+		1C8AF72910B3744F00896A82 /* BBLocalDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBLocalDevice.h; sourceTree = "<group>"; };
+		1C8AF72A10B3744F00896A82 /* BBLocalDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBLocalDevice.m; sourceTree = "<group>"; };
+		1C8AF72B10B3744F00896A82 /* BBMutableOBEXHeaderSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMutableOBEXHeaderSet.h; sourceTree = "<group>"; };
+		1C8AF72C10B3744F00896A82 /* BBMutableOBEXHeaderSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMutableOBEXHeaderSet.m; sourceTree = "<group>"; };
+		1C8AF72D10B3744F00896A82 /* BBOBEXHeaderSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBOBEXHeaderSet.h; sourceTree = "<group>"; };
+		1C8AF72E10B3744F00896A82 /* BBOBEXHeaderSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBOBEXHeaderSet.m; sourceTree = "<group>"; };
+		1C8AF72F10B3744F00896A82 /* BBOBEXRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBOBEXRequest.h; sourceTree = "<group>"; };
+		1C8AF73010B3744F00896A82 /* BBOBEXRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBOBEXRequest.m; sourceTree = "<group>"; };
+		1C8AF73110B3744F00896A82 /* BBOBEXRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBOBEXRequestHandler.h; sourceTree = "<group>"; };
+		1C8AF73210B3744F00896A82 /* BBOBEXRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBOBEXRequestHandler.m; sourceTree = "<group>"; };
+		1C8AF73310B3744F00896A82 /* BBOBEXResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBOBEXResponse.h; sourceTree = "<group>"; };
+		1C8AF73410B3744F00896A82 /* BBOBEXResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBOBEXResponse.m; sourceTree = "<group>"; };
+		1C8AF73510B3744F00896A82 /* BBServiceAdvertiser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBServiceAdvertiser.h; sourceTree = "<group>"; };
+		1C8AF73610B3744F00896A82 /* BBServiceAdvertiser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBServiceAdvertiser.m; sourceTree = "<group>"; };
+		1C8AF73710B3744F00896A82 /* BBStreamingInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBStreamingInputStream.h; sourceTree = "<group>"; };
+		1C8AF73810B3744F00896A82 /* BBStreamingInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBStreamingInputStream.m; sourceTree = "<group>"; };
+		1C8AF73910B3744F00896A82 /* BBStreamingOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBStreamingOutputStream.h; sourceTree = "<group>"; };
+		1C8AF73A10B3744F00896A82 /* BBStreamingOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBStreamingOutputStream.m; sourceTree = "<group>"; };
+		1C8AF75810B3747200896A82 /* LightAquaBlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightAquaBlue.h; sourceTree = "<group>"; };
+		1C8AF75C10B3749400896A82 /* LightAquaBlue.bridgesupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LightAquaBlue.bridgesupport; sourceTree = "<group>"; };
+		1C8AF75E10B374AB00896A82 /* OBEXFileTransferDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OBEXFileTransferDictionary.plist; sourceTree = "<group>"; };
+		1C8AF75F10B374AB00896A82 /* OBEXObjectPushDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OBEXObjectPushDictionary.plist; sourceTree = "<group>"; };
+		1C8AF76010B374AB00896A82 /* SerialPortDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SerialPortDictionary.plist; sourceTree = "<group>"; };
+		1C8AF76410B374E900896A82 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = /System/Library/Frameworks/IOBluetooth.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* LightAquaBlue_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightAquaBlue_Prefix.pch; sourceTree = "<group>"; };
-		669282170E297230008CB8B0 /* BridgeSupport */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BridgeSupport; sourceTree = "<group>"; };
-		810001680D09536000FA9985 /* BBStreamingOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBStreamingOutputStream.h; sourceTree = "<group>"; };
-		810001690D09536000FA9985 /* BBStreamingOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBStreamingOutputStream.m; sourceTree = "<group>"; };
-		8100FDEB0D056D0000FA9985 /* BBBluetoothOBEXClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BBBluetoothOBEXClient.h; sourceTree = "<group>"; };
-		8100FDEC0D056D0000FA9985 /* BBBluetoothOBEXClient.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BBBluetoothOBEXClient.m; sourceTree = "<group>"; };
-		8100FDED0D056D0000FA9985 /* BBBluetoothOBEXServer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BBBluetoothOBEXServer.h; sourceTree = "<group>"; };
-		8100FDEE0D056D0000FA9985 /* BBBluetoothOBEXServer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BBBluetoothOBEXServer.m; sourceTree = "<group>"; };
-		8100FDEF0D056D0000FA9985 /* BBStreamingInputStream.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BBStreamingInputStream.h; sourceTree = "<group>"; };
-		8100FDF00D056D0000FA9985 /* BBStreamingInputStream.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BBStreamingInputStream.m; sourceTree = "<group>"; };
-		8100FDF10D056D0000FA9985 /* BBLocalDevice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BBLocalDevice.h; sourceTree = "<group>"; };
-		8100FDF20D056D0000FA9985 /* BBLocalDevice.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BBLocalDevice.m; sourceTree = "<group>"; };
-		8100FDF30D056D0000FA9985 /* BBMutableOBEXHeaderSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BBMutableOBEXHeaderSet.h; sourceTree = "<group>"; };
-		8100FDF40D056D0000FA9985 /* BBMutableOBEXHeaderSet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BBMutableOBEXHeaderSet.m; sourceTree = "<group>"; };
-		8100FDF50D056D0000FA9985 /* BBOBEXHeaderSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BBOBEXHeaderSet.h; sourceTree = "<group>"; };
-		8100FDF60D056D0000FA9985 /* BBOBEXHeaderSet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BBOBEXHeaderSet.m; sourceTree = "<group>"; };
-		8100FDF70D056D0100FA9985 /* BBOBEXRequest.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BBOBEXRequest.h; sourceTree = "<group>"; };
-		8100FDF80D056D0100FA9985 /* BBOBEXRequest.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BBOBEXRequest.m; sourceTree = "<group>"; };
-		8100FDF90D056D0100FA9985 /* BBOBEXRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BBOBEXRequestHandler.h; sourceTree = "<group>"; };
-		8100FDFA0D056D0100FA9985 /* BBOBEXRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BBOBEXRequestHandler.m; sourceTree = "<group>"; };
-		8100FDFD0D056D0100FA9985 /* BBServiceAdvertiser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BBServiceAdvertiser.h; sourceTree = "<group>"; };
-		8100FDFE0D056D0100FA9985 /* BBServiceAdvertiser.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BBServiceAdvertiser.m; sourceTree = "<group>"; };
-		8100FDFF0D056D0100FA9985 /* LightAquaBlue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LightAquaBlue.h; sourceTree = "<group>"; };
-		8100FE000D056D0100FA9985 /* OBEXFileTransferDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = OBEXFileTransferDictionary.plist; sourceTree = "<group>"; };
-		8100FE010D056D0100FA9985 /* OBEXObjectPushDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = OBEXObjectPushDictionary.plist; sourceTree = "<group>"; };
-		8100FE020D056D0100FA9985 /* SerialPortDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = SerialPortDictionary.plist; sourceTree = "<group>"; };
-		8100FE1B0D056D4300FA9985 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = /System/Library/Frameworks/IOBluetooth.framework; sourceTree = "<absolute>"; };
-		817D21A10D3D7FA500469B5D /* BBBluetoothChannelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBluetoothChannelDelegate.h; sourceTree = "<group>"; };
-		817D21A20D3D7FA500469B5D /* BBBluetoothChannelDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBluetoothChannelDelegate.m; sourceTree = "<group>"; };
-		817D239B0D40313600469B5D /* BBOBEXResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBOBEXResponse.h; sourceTree = "<group>"; };
-		817D239C0D40313600469B5D /* BBOBEXResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBOBEXResponse.m; sourceTree = "<group>"; };
-		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* LightAquaBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LightAquaBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
-				8100FE1C0D056D4300FA9985 /* IOBluetooth.framework in Frameworks */,
+				1C8AF76510B374E900896A82 /* IOBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +106,7 @@
 		0867D691FE84028FC02AAC07 /* LightAquaBlue */ = {
 			isa = PBXGroup;
 			children = (
-				8100FDFF0D056D0100FA9985 /* LightAquaBlue.h */,
+				1C8AF75810B3747200896A82 /* LightAquaBlue.h */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
@@ -118,9 +119,9 @@
 		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				8100FE1B0D056D4300FA9985 /* IOBluetooth.framework */,
 				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
 				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+				1C8AF76410B374E900896A82 /* IOBluetooth.framework */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -128,10 +129,10 @@
 		089C1665FE841158C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				669282170E297230008CB8B0 /* BridgeSupport */,
-				8100FE000D056D0100FA9985 /* OBEXFileTransferDictionary.plist */,
-				8100FE010D056D0100FA9985 /* OBEXObjectPushDictionary.plist */,
-				8100FE020D056D0100FA9985 /* SerialPortDictionary.plist */,
+				1C8AF75E10B374AB00896A82 /* OBEXFileTransferDictionary.plist */,
+				1C8AF75F10B374AB00896A82 /* OBEXObjectPushDictionary.plist */,
+				1C8AF76010B374AB00896A82 /* SerialPortDictionary.plist */,
+				1C8AF75B10B3749400896A82 /* BridgeSupport */,
 				8DC2EF5A0486A6940098B216 /* Info.plist */,
 				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
 			);
@@ -141,30 +142,30 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				810001680D09536000FA9985 /* BBStreamingOutputStream.h */,
-				810001690D09536000FA9985 /* BBStreamingOutputStream.m */,
-				8100FDEB0D056D0000FA9985 /* BBBluetoothOBEXClient.h */,
-				8100FDEC0D056D0000FA9985 /* BBBluetoothOBEXClient.m */,
-				8100FDED0D056D0000FA9985 /* BBBluetoothOBEXServer.h */,
-				8100FDEE0D056D0000FA9985 /* BBBluetoothOBEXServer.m */,
-				8100FDEF0D056D0000FA9985 /* BBStreamingInputStream.h */,
-				8100FDF00D056D0000FA9985 /* BBStreamingInputStream.m */,
-				8100FDF10D056D0000FA9985 /* BBLocalDevice.h */,
-				8100FDF20D056D0000FA9985 /* BBLocalDevice.m */,
-				8100FDF30D056D0000FA9985 /* BBMutableOBEXHeaderSet.h */,
-				8100FDF40D056D0000FA9985 /* BBMutableOBEXHeaderSet.m */,
-				8100FDF50D056D0000FA9985 /* BBOBEXHeaderSet.h */,
-				8100FDF60D056D0000FA9985 /* BBOBEXHeaderSet.m */,
-				8100FDF70D056D0100FA9985 /* BBOBEXRequest.h */,
-				8100FDF80D056D0100FA9985 /* BBOBEXRequest.m */,
-				8100FDF90D056D0100FA9985 /* BBOBEXRequestHandler.h */,
-				8100FDFA0D056D0100FA9985 /* BBOBEXRequestHandler.m */,
-				8100FDFD0D056D0100FA9985 /* BBServiceAdvertiser.h */,
-				8100FDFE0D056D0100FA9985 /* BBServiceAdvertiser.m */,
-				817D21A10D3D7FA500469B5D /* BBBluetoothChannelDelegate.h */,
-				817D21A20D3D7FA500469B5D /* BBBluetoothChannelDelegate.m */,
-				817D239B0D40313600469B5D /* BBOBEXResponse.h */,
-				817D239C0D40313600469B5D /* BBOBEXResponse.m */,
+				1C8AF72310B3744F00896A82 /* BBBluetoothChannelDelegate.h */,
+				1C8AF72410B3744F00896A82 /* BBBluetoothChannelDelegate.m */,
+				1C8AF72510B3744F00896A82 /* BBBluetoothOBEXClient.h */,
+				1C8AF72610B3744F00896A82 /* BBBluetoothOBEXClient.m */,
+				1C8AF72710B3744F00896A82 /* BBBluetoothOBEXServer.h */,
+				1C8AF72810B3744F00896A82 /* BBBluetoothOBEXServer.m */,
+				1C8AF72910B3744F00896A82 /* BBLocalDevice.h */,
+				1C8AF72A10B3744F00896A82 /* BBLocalDevice.m */,
+				1C8AF72B10B3744F00896A82 /* BBMutableOBEXHeaderSet.h */,
+				1C8AF72C10B3744F00896A82 /* BBMutableOBEXHeaderSet.m */,
+				1C8AF72D10B3744F00896A82 /* BBOBEXHeaderSet.h */,
+				1C8AF72E10B3744F00896A82 /* BBOBEXHeaderSet.m */,
+				1C8AF72F10B3744F00896A82 /* BBOBEXRequest.h */,
+				1C8AF73010B3744F00896A82 /* BBOBEXRequest.m */,
+				1C8AF73110B3744F00896A82 /* BBOBEXRequestHandler.h */,
+				1C8AF73210B3744F00896A82 /* BBOBEXRequestHandler.m */,
+				1C8AF73310B3744F00896A82 /* BBOBEXResponse.h */,
+				1C8AF73410B3744F00896A82 /* BBOBEXResponse.m */,
+				1C8AF73510B3744F00896A82 /* BBServiceAdvertiser.h */,
+				1C8AF73610B3744F00896A82 /* BBServiceAdvertiser.m */,
+				1C8AF73710B3744F00896A82 /* BBStreamingInputStream.h */,
+				1C8AF73810B3744F00896A82 /* BBStreamingInputStream.m */,
+				1C8AF73910B3744F00896A82 /* BBStreamingOutputStream.h */,
+				1C8AF73A10B3744F00896A82 /* BBStreamingOutputStream.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -181,9 +182,18 @@
 			isa = PBXGroup;
 			children = (
 				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
 				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1C8AF75B10B3749400896A82 /* BridgeSupport */ = {
+			isa = PBXGroup;
+			children = (
+				1C8AF75C10B3749400896A82 /* LightAquaBlue.bridgesupport */,
+			);
+			path = BridgeSupport;
 			sourceTree = "<group>";
 		};
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
@@ -201,19 +211,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8100FE030D056D0100FA9985 /* BBBluetoothOBEXClient.h in Headers */,
-				8100FE050D056D0100FA9985 /* BBBluetoothOBEXServer.h in Headers */,
-				8100FE070D056D0100FA9985 /* BBStreamingInputStream.h in Headers */,
-				8100FE090D056D0100FA9985 /* BBLocalDevice.h in Headers */,
-				8100FE0B0D056D0100FA9985 /* BBMutableOBEXHeaderSet.h in Headers */,
-				8100FE0D0D056D0100FA9985 /* BBOBEXHeaderSet.h in Headers */,
-				8100FE0F0D056D0100FA9985 /* BBOBEXRequest.h in Headers */,
-				8100FE110D056D0100FA9985 /* BBOBEXRequestHandler.h in Headers */,
-				8100FE150D056D0100FA9985 /* BBServiceAdvertiser.h in Headers */,
-				8100FE170D056D0100FA9985 /* LightAquaBlue.h in Headers */,
-				8100016A0D09536000FA9985 /* BBStreamingOutputStream.h in Headers */,
-				817D21A30D3D7FA500469B5D /* BBBluetoothChannelDelegate.h in Headers */,
-				817D239D0D40313600469B5D /* BBOBEXResponse.h in Headers */,
+				1C8AF73B10B3744F00896A82 /* BBBluetoothChannelDelegate.h in Headers */,
+				1C8AF73D10B3744F00896A82 /* BBBluetoothOBEXClient.h in Headers */,
+				1C8AF73F10B3744F00896A82 /* BBBluetoothOBEXServer.h in Headers */,
+				1C8AF74110B3744F00896A82 /* BBLocalDevice.h in Headers */,
+				1C8AF74310B3744F00896A82 /* BBMutableOBEXHeaderSet.h in Headers */,
+				1C8AF74510B3744F00896A82 /* BBOBEXHeaderSet.h in Headers */,
+				1C8AF74710B3744F00896A82 /* BBOBEXRequest.h in Headers */,
+				1C8AF74910B3744F00896A82 /* BBOBEXRequestHandler.h in Headers */,
+				1C8AF74B10B3744F00896A82 /* BBOBEXResponse.h in Headers */,
+				1C8AF74D10B3744F00896A82 /* BBServiceAdvertiser.h in Headers */,
+				1C8AF74F10B3744F00896A82 /* BBStreamingInputStream.h in Headers */,
+				1C8AF75110B3744F00896A82 /* BBStreamingOutputStream.h in Headers */,
+				1C8AF75910B3747200896A82 /* LightAquaBlue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +255,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "LightAquaBlue" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			mainGroup = 0867D691FE84028FC02AAC07 /* LightAquaBlue */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -263,10 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
-				8100FE180D056D0100FA9985 /* OBEXFileTransferDictionary.plist in Resources */,
-				8100FE190D056D0100FA9985 /* OBEXObjectPushDictionary.plist in Resources */,
-				8100FE1A0D056D0100FA9985 /* SerialPortDictionary.plist in Resources */,
-				6692821A0E297230008CB8B0 /* BridgeSupport in Resources */,
+				1C8AF75D10B3749400896A82 /* LightAquaBlue.bridgesupport in Resources */,
+				1C8AF76110B374AB00896A82 /* OBEXFileTransferDictionary.plist in Resources */,
+				1C8AF76210B374AB00896A82 /* OBEXObjectPushDictionary.plist in Resources */,
+				1C8AF76310B374AB00896A82 /* SerialPortDictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,18 +287,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8100FE040D056D0100FA9985 /* BBBluetoothOBEXClient.m in Sources */,
-				8100FE060D056D0100FA9985 /* BBBluetoothOBEXServer.m in Sources */,
-				8100FE080D056D0100FA9985 /* BBStreamingInputStream.m in Sources */,
-				8100FE0A0D056D0100FA9985 /* BBLocalDevice.m in Sources */,
-				8100FE0C0D056D0100FA9985 /* BBMutableOBEXHeaderSet.m in Sources */,
-				8100FE0E0D056D0100FA9985 /* BBOBEXHeaderSet.m in Sources */,
-				8100FE100D056D0100FA9985 /* BBOBEXRequest.m in Sources */,
-				8100FE120D056D0100FA9985 /* BBOBEXRequestHandler.m in Sources */,
-				8100FE160D056D0100FA9985 /* BBServiceAdvertiser.m in Sources */,
-				8100016B0D09536000FA9985 /* BBStreamingOutputStream.m in Sources */,
-				817D21A40D3D7FA500469B5D /* BBBluetoothChannelDelegate.m in Sources */,
-				817D239E0D40313600469B5D /* BBOBEXResponse.m in Sources */,
+				1C8AF73C10B3744F00896A82 /* BBBluetoothChannelDelegate.m in Sources */,
+				1C8AF73E10B3744F00896A82 /* BBBluetoothOBEXClient.m in Sources */,
+				1C8AF74010B3744F00896A82 /* BBBluetoothOBEXServer.m in Sources */,
+				1C8AF74210B3744F00896A82 /* BBLocalDevice.m in Sources */,
+				1C8AF74410B3744F00896A82 /* BBMutableOBEXHeaderSet.m in Sources */,
+				1C8AF74610B3744F00896A82 /* BBOBEXHeaderSet.m in Sources */,
+				1C8AF74810B3744F00896A82 /* BBOBEXRequest.m in Sources */,
+				1C8AF74A10B3744F00896A82 /* BBOBEXRequestHandler.m in Sources */,
+				1C8AF74C10B3744F00896A82 /* BBOBEXResponse.m in Sources */,
+				1C8AF74E10B3744F00896A82 /* BBServiceAdvertiser.m in Sources */,
+				1C8AF75010B3744F00896A82 /* BBStreamingInputStream.m in Sources */,
+				1C8AF75210B3744F00896A82 /* BBStreamingOutputStream.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +319,7 @@
 		1DEB91AE08733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -323,21 +334,17 @@
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = LightAquaBlue;
 				WRAPPER_EXTENSION = framework;
-				ZERO_LINK = YES;
 			};
 			name = Debug;
 		};
 		1DEB91AF08733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LightAquaBlue_Prefix.pch;
@@ -351,21 +358,26 @@
 		1DEB91B208733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
 		1DEB91B308733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
